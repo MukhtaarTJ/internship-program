@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./MainNav.module.css";
 import { Nav, Navbar, Container,  } from "react-bootstrap";
-import NavImg from "../../Assets/NavImg.png"
-import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
+import NavImg from "../../../Assets/image 2 (1).png"
 const MainNav = () => {
   return (
     <>
@@ -19,9 +18,9 @@ const MainNav = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll></Nav>
             <Nav className={styles.nav_links}>
-              <NavLink to="/" className={styles.link}>Home</NavLink>
-              <NavLink to="/about" className={styles.link}>About Us</NavLink>
-              <NavLink className={styles.link}>Contact Us</NavLink>
+              <Link to="/" className={styles.link}>Home</Link>
+              <Link to="/about" className={styles.link}>About Us</Link>
+              <Link className={styles.link}>Contact Us</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,9 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "./Mentorship.module.css";
 import React from "react";
-import FirstMentor from "../../../Assets/First-mentor.png";
-import SecondMentor from "../../../Assets/second-mentor.png";
-import ThirdMentor from "../../../Assets/Third-mentor.png";
+import FirstMentor from "../../../Assets/FirstMentor.png";
+import SecondMentor from "../../../Assets/SecondMentor.png";
+import ThirdMentor from "../../../Assets/ThirdMentor.png";
 import { FaArrowRight } from "react-icons/fa6";
 
 

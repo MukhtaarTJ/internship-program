@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Layout from './Layout/Layout';
+import Footer from './components/Layout/Footer/Footer';
+import MainNav from './components/Layout/MainNav/MainNav';
+import AppRoutes from './components/Routes/AppRoutes';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <Layout/>
+     {/* <MainNav/> */}
+     {/* <HomePage/> */}
+     {/* <Footer/> */}
+     <AppRoutes/>
     </div>
   );
 }

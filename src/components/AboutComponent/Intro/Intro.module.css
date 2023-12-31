@@ -1,0 +1,21 @@
+.container{
+    background: url(../../../Assets/501K\ WATERMARK\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 30em !important;
+    background-position-y: -25em;
+    
+}
+.intro_container{
+    width: 60% !important;
+    margin: 3rem auto !important;
+}
+.pie_percent{
+    width: 100% !important;
+    z-index: 1;
+}
+.pie_image{
+width: 100% !important;
+max-width: 300px !important;
+
+}
