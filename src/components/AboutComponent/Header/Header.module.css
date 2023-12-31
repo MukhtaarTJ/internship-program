@@ -54,7 +54,7 @@
   .learn_image,
   .student_image {
     width: 100% !important;
-    max-width: 190px !important;
+    max-width: 150px !important;
   }
   .text_layout {
     width: 190px !important;
