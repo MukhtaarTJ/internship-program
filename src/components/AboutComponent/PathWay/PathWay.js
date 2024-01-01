@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./PathWay.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import PathwayImg from "../../../Assets/PathwayImage.png";
-
+import { Link } from "react-router-dom";
 const PathWay = () => {
   return (
     <Container className={styles.container} fluid>
@@ -12,7 +12,7 @@ const PathWay = () => {
             <img src={PathwayImg} alt="" className={styles.pathway_image} />
             <div className={styles.image_bar}></div>
             <div className={styles.btn_layout}>
-              <button className={styles.btn}>sign up</button>
+              <Link to="/register" className={styles.btn}>sign up</Link>
             </div>
           </div>
         </Col>

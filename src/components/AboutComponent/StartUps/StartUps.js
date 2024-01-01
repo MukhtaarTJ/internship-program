@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./StartUps.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import StartupImage from "../../../Assets/StartupImg.png";
+import { Link } from "react-router-dom";
 
 const CareerStarter = () => {
   return (
@@ -11,8 +12,9 @@ const CareerStarter = () => {
           <div className={styles.text_layout}>
             <div className={styles.top_text_layout}>
               <p className={styles.top_text}>
-                STARTUPS/ ENTREPRENEURSHIP Programs.{" "}
+                STARTUPS/ ENTREPRENEURSHIP <span className={styles.span_text}> Programs. </span>{" "}
               </p>
+              <p className={styles.bottom_text}>( <span className={styles.bottom_span}>$150</span> Offered at $130 through Bistrapay)</p>
             </div>
             <div className={styles.advert_layout}>
               <p className={styles.advert}>
@@ -40,7 +42,7 @@ const CareerStarter = () => {
             <img src={StartupImage} alt="" className={styles.startup_image} />
             <div className={styles.image_bar}></div>
             <div className={styles.btn_layout}>
-              <button className={styles.btn}>sign up</button>
+              <Link to="/register" className={styles.btn}>sign up</Link>
             </div>
           </div>
         </Col>

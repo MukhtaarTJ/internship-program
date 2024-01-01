@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "./Intro.module.css";
 import sponsors from "../../../Assets/SponsorImage.png";
 import { Link } from "react-router-dom";
+import CareerStarterModal from "../CareerStarterModal/CareerStarterModal";
 
 const Intro = () => {
   return (
@@ -78,7 +79,7 @@ const Intro = () => {
                 </ul>
               </div>
               <div className={styles.learn_button_layout}>
-                <button className={styles.learn_button}>Learn more</button>
+                <CareerStarterModal className={styles.learn_button}/>
               </div>
             </div>
           </Col>

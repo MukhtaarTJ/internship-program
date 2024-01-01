@@ -6,7 +6,6 @@ import SecondMentor from "../../../Assets/SecondMentor.png";
 import ThirdMentor from "../../../Assets/ThirdMentor.png";
 import { FaArrowRight } from "react-icons/fa6";
 
-
 const Mentorship = () => {
   return (
     <Container className={styles.container}>
@@ -26,10 +25,11 @@ const Mentorship = () => {
           <div style={{}}>
             <img src={FirstMentor} alt="" />
             <p className={styles.mentor_text}>
-              The 501k Startup/Entrepreneurs program really helped me master the
-              art of team building and management. Today i have a successful
-              startup.
-              <br /> <span className="fw-bold text-dark"> Joe fox, Canada.</span>
+              1. Looking back, I can confidently say that the 501k
+              Startup/Entrepreneurs Program offered by Product Square has been a
+              game-changer in my entrepreneurial journey.
+              <br />{" "}
+              <span className="fw-bold text-dark"> Joe fox, Canada.</span>
             </p>
           </div>
         </Col>
@@ -37,10 +37,10 @@ const Mentorship = () => {
           <div style={{}}>
             <img src={SecondMentor} alt="" />
             <p className={styles.mentor_text}>
-              The 501k Startup/Entrepreneurs program really helped me master the
-              art of team building and management. Today i have a successful
-              startup.
-              <br /> <span className="fw-bold text-dark"> Joe fox, Canada.</span>
+              2. Today, I am proud to say that my startup thrives, thanks to the
+              skills and knowledge I acquired during the 501k
+              Startup/Entrepreneurs Program. 
+              <br /> <span className="fw-bold text-dark"> Amelia Nancy,.</span>
             </p>
           </div>
         </Col>
@@ -48,15 +48,18 @@ const Mentorship = () => {
           <div style={{}}>
             <img src={ThirdMentor} alt="" />
             <p className={styles.mentor_text}>
-              The 501k Startup/Entrepreneurs program really helped me master the
-              art of team building and management. Today i have a successful
-              startup.
-              <br /> <span className="fw-bold text-dark"> Joe fox, Canada.</span>
+              3. I am immensely grateful to Product Square for offering this
+              program and providing the guidance and support I needed to
+              succeed. 
+              <br />{" "}
+              <span className="fw-bold text-dark">  Mukhtaar Tijani, Lagos.</span>
             </p>
           </div>
         </Col>
         <div className={styles.meet_mentor}>
-          <span className={styles.meet_mentor_text}>meet a mentor <FaArrowRight/></span>
+          <span className={styles.meet_mentor_text}>
+            meet a mentor <FaArrowRight />
+          </span>
         </div>
       </Row>
     </Container>

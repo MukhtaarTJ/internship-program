@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CareerStarter.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import StartupImage from "../../../Assets/StartupImage.png"
-
+import { Link } from "react-router-dom";
 const CareerStarter = () => {
   return (
     <Container className={styles.startup_container} fluid>
@@ -37,7 +37,7 @@ const CareerStarter = () => {
             <img src={StartupImage} alt=""className={styles.startup_image} />
             <div className={styles.image_bar}></div>
             <div className={styles.btn_layout}>
-                <button className={styles.btn}>sign up</button>
+                <Link to="/register" className={styles.btn}>sign up</Link>
             </div>
           </div>
         </Col>

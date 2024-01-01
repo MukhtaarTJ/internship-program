@@ -109,8 +109,8 @@ height: 100%;
     line-height: 27px;
 }
 .learn_button_layout{
-    margin: 3rem auto;
-    width: 250px;
+    margin: 3rem auto !important;
+    width: 250px !important;
 }
 .learn_button{
     padding: 10px 50px;

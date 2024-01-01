@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "./PathWay.module.css";
+import PathWayModal from "../PathWayModal/PathWayModal";
+import EntrepreneurshipModal from "../EntrepreneurshipModal/EntrePreneurshipModal";
 
 const PathWay = () => {
   return (
@@ -12,14 +14,14 @@ const PathWay = () => {
               <div className={styles.header_layout}>
                 <p className={styles.header_text}>
                   {" "}
-                  CAREER-
-                  <br /> STARTER
+                  PROFESSIONAL
+                  <br /> PATHWAY
                   <br />
                   <span className="fs-4 fw-medium pt-0 text-white"> Internships. </span>
                   <br />
-                  <span className="fs-6 text-uppercase fw-medium pt-0 text-white">
-                    (free)
-                  </span>
+                  <p className="fs-6 text-uppercase fw-medium pt-0 text-white">(
+                   <span style={{textDecoration:"line-through", color:"white"}}>$120</span> Offered At $15 Through Bistrapay)
+                  </p>
                 </p>
               </div>
               <div className={styles.advert_layout}>
@@ -39,7 +41,7 @@ const PathWay = () => {
                 </ul>
               </div>
               <div className={styles.learn_button_layout}>
-                <button className={styles.learn_button}>Learn more</button>
+                <PathWayModal/>
               </div>
             </div>
           </Col>
@@ -77,7 +79,8 @@ const PathWay = () => {
                 </ul>
               </div>
               <div className={styles.learn_button_layout}>
-                <button className={styles.learn_button}>Learn more</button>
+                {/* <button className={styles.learn_button}>Learn more</button> */}
+                <EntrepreneurshipModal/>
               </div>
             </div>
           </Col>

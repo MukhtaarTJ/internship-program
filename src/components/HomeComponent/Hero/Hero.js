@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Hero.module.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaArrowRight } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -41,7 +42,7 @@ const Hero = () => {
       <Row>
         <Col>
           <div className={styles.application_section}>
-            <button>Apply Now</button>{" "}
+            <Link to="/register" className={styles.apply_btn}>Apply Now</Link>{" "}
             <span className={styles.meet_mentor_text}>
               Meet a mentor <FaArrowRight />
             </span>
