@@ -1,0 +1,110 @@
+.containers{
+    background: #041B35;
+    border: 1px solid #041B35;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.containers .contact .icon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.containers .contact .icon img{
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.containers ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.containers ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.containers .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.containers .contact p{
+    font-size: 21px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 810px){
+    .containers{
+        gap: 7rem;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .containers .contact .icon img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .containers .contact p{
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .containers ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .containers{
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .containers .contact .icon img{
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    .containers .contact p{
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .containers ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .containers{
+        gap: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .containers{
+        gap: 1.1rem;
+    }
+}

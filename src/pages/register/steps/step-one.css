@@ -14,19 +14,19 @@
   
   
   .main .form-box .form .input{
-    display: flex !important;
-    flex-direction: column !important;
-    padding: 10px !important;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
   }
   
   .main .form-box .form .input input{
-    width: 100% !important;
-    height: 33px !important;
-    border-radius: 4px !important;
-    border: 1px solid black !important;
+    width: 100%;
+    height: 33px;
+    border-radius: 4px;
+    border: 1px solid black;
     font-size: 17.6px;
-    font-weight: 300 !important;
-    font-family: 'poppins', sans-serif !important;
+    font-weight: 300;
+    font-family: 'poppins', sans-serif;
   }
 
   .main .form-box .form .input select{
@@ -134,17 +134,17 @@
 
 
 
-@media (width: 810px) {
+  @media screen and (max-width: 810px) {
   .main{
     flex-direction: column;
-    padding: 70px 50px;
+    padding: 70px 60px;
 
   }
 
   .main .form-box{
-    width: 70%;
+    max-width: 100%;
     padding: 70px 90px;
-    margin-left: -95px;
+    margin-left: -28px;
     margin-top: -80px;
   
   }
@@ -162,14 +162,14 @@
   }
 
   .main .text{
-    margin-top: -130px;
-    margin-left: -30px;
+    padding: 0px 0px 90px 80px;
+
   }
 
   
 }
 
-@media (width: 412px){
+@media screen and (max-width: 430px){
   .main{
     flex-direction: column;
     
@@ -180,28 +180,29 @@
   }
 
   .main .form-box{
-    width: 70%;
-    padding: 70px 90px;
-    margin-left: -95px;
+    max-width: 130%;
+    padding: 70px 170px;
+    margin-left: -120px;
     margin-top: -80px;
   
   }
 
   .main .form-box .form .input input{
-    width: 120%;
+    width: 250%;
   }
 
   .main .form-box .form .input {
-    margin-left: -60px;
+    margin-left: -120px;
   }
 
   .main .form-box .form .input select{
-    width: 125%;
+    width: 245%;
   }
 
   .main .text{
-    margin-top: -80px;
-    margin-left: -30px;
+    
+    padding: 0px 0px 80px 0px;
+    margin-left: -40px;
   }
 
 
