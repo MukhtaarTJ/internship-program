@@ -44,8 +44,15 @@
     border: none;
     background: rgba(46, 42, 55, 1);
     margin-top: 20px;
-    margin-left: 69%;
+    /* margin-left: 69%; */
     color: #ffffff;
+  }
+
+  .main .form-box .stepp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
   }
   
   .main .form-box{
